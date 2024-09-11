@@ -22,15 +22,15 @@ spring:
   # config:
   #   activate:
   #     on-profile: dev
-  datasource:
-    url: jdbc:postgresql://postgres:5432/userdb
-    username: admin
-    password: admin@123
-  jpa:
-    database-platform: org.hibernate.dialect.PostgreSQLDialect
-    hibernate:
-      ddl-auto: update
-    show-sql: true
+#  datasource:
+#    url: jdbc:postgresql://postgres:5432/userdb
+#    username: admin
+#    password: admin@123
+#  jpa:
+#    database-platform: org.hibernate.dialect.PostgreSQLDialect
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: true
 server:
   port: 8081
 eureka:
